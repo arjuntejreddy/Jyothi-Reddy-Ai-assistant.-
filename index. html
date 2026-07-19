@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyothi AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+    <h1>🤖 JYOTHI AI ASSISTANT</h1>
+
+    <p>Your Personal AI Assistant</p>
+
+    <div class="chat-box" id="chatBox">
+
+        <div class="bot">
+            Hello 👋<br>
+            I am Jyothi AI Assistant.<br>
+            Ask me anything!
+        </div>
+
+    </div>
+
+    <div class="input-area">
+
+        <input
+            id="userInput"
+            type="text"
+            placeholder="Type your message...">
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
